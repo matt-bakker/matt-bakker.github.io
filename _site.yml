@@ -1,7 +1,6 @@
 name: "Dr. Matthew Bakker"
 output_dir: "."
 navbar:
-  title: "Bakker Lab for Agricultural Microbial Ecology"
 
   left:
     - text: "Home"

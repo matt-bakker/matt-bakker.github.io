@@ -1,7 +1,5 @@
 ---
-title: "index.Rmd"
-author: "matt-bakker"
-date: "March 28, 2019"
+title: "Bakker Lab for Agricultural Microbial Ecology"
 output: html_document
 ---
 

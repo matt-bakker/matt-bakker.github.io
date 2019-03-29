@@ -1,7 +1,5 @@
 ---
 title: "Research"
-author: "Matthew Bakker"
-date: "March 28, 2019"
 output: html_document
 ---
 
