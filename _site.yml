@@ -1,0 +1,31 @@
+name: "Dr. Matthew Bakker"
+output_dir: "."
+navbar:
+  title: "Agricultural Microbial Ecology"
+
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "People"
+      href: people.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Contact"
+      href: contact.html
+
+#   right:
+#    - icon: fa-envelope fa-lg
+#      href: contact.html
+#    - icon: fa-linkedin fa-lg
+#      href: https://https://www.linkedin.com/in/mattbakker/
+#    - icon: fa-scholar fa-lg  
+#      href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
+#    - icon: fa-resarchgate fa-lg
+#      href: https://www.researchgate.net/profile/Matthew_Bakker
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
