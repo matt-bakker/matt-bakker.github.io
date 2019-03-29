@@ -1,7 +1,7 @@
 name: "Dr. Matthew Bakker"
 output_dir: "."
 navbar:
-
+        title: "Matthew G. Bakker"
   left:
     - text: "Home"
       href: index.html
