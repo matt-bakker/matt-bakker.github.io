@@ -4,6 +4,6 @@ output: html_document
 ---
 
 Dr. Matthew Bakker
-
+<img src="images/Bakker_profile.jpg" style="width:35%; border:5px solid; margin-right: 20px" align="left">
 
 Lab alumni
