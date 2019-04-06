@@ -1,18 +1,20 @@
 ---
-title: "Research"
+title: "Bakker Lab"
+tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
 
-Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability.
+Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability.  
+Some of our current study systems include:
 
 # Fusarium head blight of small grains
 ```{r, cache=FALSE, fig.cap="Fusarium head blight; image curtesy of U.S. Department of Agriculture", echo=TRUE}
-knitr::include_graphics("images/FHB_viaARS.jpg")
+knitr::include_graphics("media/FHB_viaARS.jpg")
 ```
 text
 
 # Microbiome dynamics during malting
-## Current MSc position open!
-<img src="images/FHB.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left" alt="malted barley",>
-By Peter Schill - Self-photographed, CC BY-SA 2.0 de, https://commons.wikimedia.org/w/index.php?curid=27955443
+### [Current MSc position open!] (media/Fusarium_MaltingBarley_MScPosition_UManitoba.pdf)
+<img src="media/Malt_viaWikipedia_1280px-Grünmalz.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left" alt="malted barley",>
+Image by Peter Schill, via wikimedia CC BY-SA 2.0 de
 text

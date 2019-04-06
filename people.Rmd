@@ -1,9 +1,10 @@
 ---
-title: "People"
+title: "Bakker Lab"
+tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
 
 Dr. Matthew Bakker
-<img src="images/Bakker_profile.jpg" style="width:35%; border:5px solid; margin-right: 20px" align="left">
+<img src="media/Bakker_profile.jpg" style="width:35%; border:5px solid; margin-right: 20px" align="left">
 
 Lab alumni

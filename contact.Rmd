@@ -1,7 +1,27 @@
 ---
-title: "Contact"
+title: "Bakker Lab"
+tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
 
 I will be joining the Department of Microbiology at the University of Manitoba effective July 1st, 2019.
 In the meantime, you can reach me at matt.g.bakker (at) gmail.com
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+[![Image name](image.png)](http://www.host.com/link.html
+
+#   right:
+#    - icon: fa-envelope fa-lg
+#      href: contact.html
+#    - icon: fa-linkedin fa-lg
+#      href: https://https://www.linkedin.com/in/mattbakker/
+#    - icon: fa-scholar fa-lg  
+#      href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
+#    - icon: fa-resarchgate fa-lg
+#      href: https://www.researchgate.net/profile/Matthew_Bakker
+
+
+![](media/UofM_logo.png)
