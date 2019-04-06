@@ -7,10 +7,8 @@ Research in the Bakker lab investigates plant-microbe interactions and plant-ass
 
 # Fusarium head blight of small grains
 ```{r, cache=FALSE, fig.cap="Fusarium head blight; image curtesy of U.S. Department of Agriculture", echo=TRUE}
-knitr::include_graphics("./images/FHB_viaARS.jpg")
+knitr::include_graphics("images/FHB_viaARS.jpg")
 ```
-<img src="images/FHB_viaARS.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
-
 text
 
 # Microbiome dynamics during malting
