@@ -3,4 +3,6 @@ title: "Bakker Lab for Agricultural Microbial Ecology"
 output: html_document
 ---
 
+<img src="images/Bakker_profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
 I am a microbial ecologist with particular interest in connections to sustainable crop production.
