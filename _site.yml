@@ -20,10 +20,10 @@ navbar:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-linkedin fa-lg
-      href: https://https://www.linkedin.com/in/mattbakker/
-    - icon: fa-scholar fa-lg  
+      href: https://www.linkedin.com/in/mattbakker/
+    - icon: fa-google fa-lg  
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: fa-resarchgate fa-lg
+    - icon: fa-researchgate fa-lg
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:

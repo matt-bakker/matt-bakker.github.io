@@ -1,10 +1,10 @@
 ---
-title: "Bakker Lab"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
 
-Dr. Matthew Bakker
+# Current lab members
+Dr. Matthew Bakker  Matt completed his PhD in Plant Pathology ([University of Minnesota](https://plpa.cfans.umn.edu/){:target="_blank"}) in 2011. He did a post-doc at [Colorado State University](https://www.colostate.edu/){:target="_blank"} and worked as a staff scientist with the U.S. Department of Agriculture](https://www.ars.usda.gov/){:target="_blank"} for six years. He joins the [Department of Microbiology](http://www.sci.umanitoba.ca/micro/){:target="_blank"} at the [University of Manitoba](https://umanitoba.ca/){:target="_blank"} effective 1 July 2019.
 <img src="media/Bakker_profile.jpg" style="width:35%; border:5px solid; margin-right: 20px" align="left">
 
-Lab alumni
+# Lab alumni

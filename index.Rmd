@@ -1,9 +1,7 @@
 ---
-title: "Bakker Lab"
+title: "Bakker Lab for Agricultural Microbial Ecology"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-
-# Bakker Lab for Agricultural Microbial Ecology
 
 Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability.
