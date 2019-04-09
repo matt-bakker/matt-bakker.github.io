@@ -9,7 +9,7 @@ You can reach me at [matthew.bakker@umanitoba.ca](mailto:matthew.bakker@umanitob
 
 
 <center>
-![](media/UofM_logo.png){width=25%}
+![](media/UofM_logo.png){width=30%}
 </center>
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
