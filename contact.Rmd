@@ -1,15 +1,15 @@
 ---
-title: "Bakker Lab"
+title: "Contact"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
 
 I will be joining the Department of Microbiology at the University of Manitoba effective July 1st, 2019.
-In the meantime, you can reach me at  matt.g.bakker (at) gmail.com
+You can reach me at [matthew.bakker@umanitoba.ca](mailto:matthew.bakker@umanitoba.ca).
 
 
 <center>
-![](media/UofM_logo.png){width=20%}
+![](media/UofM_logo.png){width=25%}
 </center>
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
