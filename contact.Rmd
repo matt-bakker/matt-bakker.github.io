@@ -8,10 +8,6 @@ I will be joining the Department of Microbiology at the University of Manitoba e
 You can reach me at [Matthew.Bakker@umanitoba.ca](mailto:Matthew.Bakker@umanitoba.ca).
   
   
-<center>
+<left>
 ![](media/UofM_logo.png){width=30%}
-</center>
-
-```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
-library(fontawesome)
-```
+</left>
