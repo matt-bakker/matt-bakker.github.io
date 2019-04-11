@@ -2,7 +2,8 @@
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-  
+<p></br></p>
+
 # Current lab members  
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
 knitr::include_graphics("media/Bakker_profile.jpg")
