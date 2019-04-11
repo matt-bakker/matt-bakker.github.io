@@ -3,7 +3,8 @@ title: "Join us!"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-
-I am currently recruiting for a [master's student position](media/Fusarium_MaltingBarley_MScPosition_UManitoba.pdf {:target="_blank"}), with research to address microbiomes of malting barley and connections to *Fusarium graminearum*.
-
-I anticipate openings for a couple more students in the next few months, so please [get in touch](contact.html) if you have ideas. I am happy to assist motivated students and post-docs who are interested in pursuing their own funding sources.
+  
+I am currently recruiting for a [master's student position](media/Fusarium_MaltingBarley_MScPosition_UManitoba.pdf {:target="_blank"}), with research to address microbiomes of malting barley and connections to *Fusarium graminearum*.  
+  
+I anticipate openings for a couple more students in the next few months, so please [get in touch](contact.html) if you have ideas.  
+I am happy to assist motivated students and post-docs who are interested in pursuing their own funding sources.  

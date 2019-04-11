@@ -3,11 +3,8 @@ title: "Contact"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-
-I will be joining the Department of Microbiology at the University of Manitoba effective July 1st, 2019.
-You can reach me at [Matthew.Bakker@umanitoba.ca](mailto:Matthew.Bakker@umanitoba.ca).
   
+I will be joining the Department of Microbiology at the University of Manitoba effective July 1st, 2019.  
+You can reach me at [Matthew.Bakker@umanitoba.ca](mailto:Matthew.Bakker@umanitoba.ca).  
   
-<left>
-![](media/UofM_logo.png){width=30%}
-</left>
+<img src="media/UofM_logo.png" style="width:30%; border:3px solid; margin-right: 20px" align="left">  

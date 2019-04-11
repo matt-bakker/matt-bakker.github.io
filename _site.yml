@@ -1,5 +1,6 @@
 name: "Dr. Matthew Bakker"
 output_dir: "."
+google_analytics: "UA-138158950-1"
 navbar:
   title: "Bakker Lab"
   left:
@@ -23,10 +24,10 @@ navbar:
       href: https://www.linkedin.com/in/mattbakker/
     - icon: fa-google fa-lg  
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: fa-researchgate fa-lg  
+    - icon: fa-researchgate
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
   html_document:
-    theme: paper
+    theme: sandstone
     css: 'style.css'

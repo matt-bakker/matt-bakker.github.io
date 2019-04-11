@@ -3,9 +3,10 @@ title: "Research"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-
-Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability. Some of our current study systems include:
-
+  
+Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability. Some of our current study systems include:  
+  
+  
 <figure>
   <img src="media/FHB_viaARS.jpg" style="width:30%; border:3px solid; margin-right: 20px" align="right">
   <figcaption>*Fusarium head blight; image curtesy of U.S. Department of Agriculture*</figcaption>
@@ -28,4 +29,4 @@ Malting is a process of controlled germination that is used to stimulate enzymes
   <figcaption>*Chemical structure of the mycotoxin deoxynivalenol*</figcaption>
 </figure> 
 ### Microbial detoxification of mycotoxins  
-The amazing metabolic abilities of the microbial world are still largely unknown. We are doing our small part to uncover this vast potential by prospecting for microbes and enzymes that are able to chemically transform mycotoxins such as deoxynivalenol.
+The amazing metabolic abilities of the microbial world are still largely unknown. We are doing our small part to uncover this vast potential by prospecting for microbes and enzymes that are able to chemically transform mycotoxins such as deoxynivalenol.  

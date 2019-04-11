@@ -3,6 +3,6 @@ title: "Publications"
 tags: [Agricultural Microbial Ecology]
 output: html_document
 ---
-
+  
 Please find our publications listed on [Google Scholar](https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"}
-or on [ResearchGate](https://www.researchgate.net/profile/Matthew_Bakker/research){target="_blank"}
+or on [ResearchGate](https://www.researchgate.net/profile/Matthew_Bakker/research){target="_blank"}  
