@@ -5,9 +5,9 @@ output: html_document
 ---
 
 I will be joining the Department of Microbiology at the University of Manitoba effective July 1st, 2019.
-You can reach me at [matthew.bakker@umanitoba.ca](mailto:matthew.bakker@umanitoba.ca).
-
-
+You can reach me at [Matthew.Bakker@umanitoba.ca](mailto:Matthew.Bakker@umanitoba.ca).
+  
+  
 <center>
 ![](media/UofM_logo.png){width=30%}
 </center>
