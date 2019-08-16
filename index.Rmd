@@ -1,12 +1,19 @@
 ---
 title: "Bakker Lab for Agricultural Microbial Ecology"
 tags: [Agricultural Microbial Ecology]
-output: html_document
+output: 
+  html_document:
+    includes:
+       in_header: GA_Script.html
 ---
 
 Research in the Bakker lab investigates plant-microbe interactions and plant-associated microbiomes, particularly in relation to agricultural productivity and sustainability.  
   
-We are in the [Department of Microbiology](http://www.sci.umanitoba.ca/micro/){target="_blank"} at the [University of Manitoba](https://umanitoba.ca/){target="_blank"}, effective 1 July 2019.
+We are in the [Department of Microbiology](http://www.sci.umanitoba.ca/micro/){target="_blank"} at the [University of Manitoba](https://umanitoba.ca/){target="_blank"}.
   
-<img src="media/Fusarium_WheatSeed_viaNCAUR.png" style="width:75%; border:3px solid; margin-right: 20px" align="left">  
-
+<figure>
+<img src="media/Fusarium_WheatSeed_viaNCAUR.png" style="width:100%; border:3px solid; margin-right: 20px" align="left"; alt="*Fusarium graminearum* colonizing a wheat kernel">  
+ <figcaption>
+ *Fusarium graminearum* colonizing a wheat kernel
+ </figcaption>
+</figure>
