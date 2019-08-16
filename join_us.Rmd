@@ -9,4 +9,4 @@ output:
   
 If you are interested in graduate studies, please [send me your CV and unofficial transcripts](contact.html) to initiate a conversation. I am happy to assist motivated students and post-docs who are interested in pursuing their own funding sources.  
 
-International applicants should review the [admission requirements](http://umanitoba.ca/faculties/graduate_studies/admissions/139.html {:target="_blank"}) prior to getting in contact with me. While all inquiries are welcome, please note that only suitable candidates may recieve a reply.
+International applicants should review the [admission requirements](http://umanitoba.ca/faculties/graduate_studies/admissions/139.html){target="_blank"} prior to getting in contact with me. While all inquiries are welcome, please note that only suitable candidates may recieve a reply.

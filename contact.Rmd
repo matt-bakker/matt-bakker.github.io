@@ -12,12 +12,12 @@ I will be joining the Department of Microbiology at the University of Manitoba e
 You can reach me at [Matthew.Bakker@umanitoba.ca](mailto:Matthew.Bakker@umanitoba.ca) or +1-204-474-7297.  
 
 Office location: 
-414B Buller Building; [map here](http://umanitoba.ca/maps/)
-
+414B Buller Building; [map here](http://umanitoba.ca/maps/){target="_blank"}
 <figure>
   <img src="media/Buller.jpg" style="width:30%; border:3px solid; margin-right: 20px" align="right">
-  <figcaption>*Buller building; image by Lucas Teles, via wikimedia CC-BY-SA*</figcaption>
-</figure> 
+  <figcaption>*photo by Lucas Teles, via wikimedia CC-BY-SA*</figcaption>
+</figure>
+
 
 Mailing address: 
 Department of Microbiology
