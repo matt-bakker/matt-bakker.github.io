@@ -22,9 +22,9 @@ navbar:
       href: contact.html
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/mattbakker/
-    - icon: fa-google fa-lg  
+    - icon: fa-google fa-lg
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: ai-researchgate ai-lg
+    - icon: fa-researchgate fa-lg
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
