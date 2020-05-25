@@ -24,7 +24,7 @@ navbar:
       href: https://www.linkedin.com/in/mattbakker/
     - icon: fa-google fa-lg
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: fa-researchgate fa-lg
+    - icon: fab fa-researchgate
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
