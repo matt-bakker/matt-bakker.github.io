@@ -6,10 +6,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "People"
-      href: people.html
     - text: "Research"
       href: research.html
+    - text: "People"
+      href: people.html
     - text: "Publications"
       href: publications.html
     - text: "Join us!"
@@ -24,7 +24,7 @@ navbar:
       href: https://www.linkedin.com/in/mattbakker/
     - icon: fa-google fa-lg
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: fab fa-researchgate
+    - icon: `r fa("researchgate")`
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
