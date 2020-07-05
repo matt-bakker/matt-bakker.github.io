@@ -18,13 +18,13 @@ navbar:
       href: contact.html
 
   right:
-    - icon: fa-envelope fa-lg
+    - icon: fas fa-envelope
       href: contact.html
-    - icon: fa-linkedin fa-lg
+    - icon: fas fa-linkedin
       href: https://www.linkedin.com/in/mattbakker/
-    - icon: fa-google fa-lg
+    - icon: fas fa-google
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: `r fa("researchgate")`
+    - icon: fas fa-researchgate
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
