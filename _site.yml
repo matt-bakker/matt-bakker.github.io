@@ -20,12 +20,11 @@ navbar:
   right:
     - icon: fas fa-envelope
       href: contact.html
-    - icon: fas fa-linkedin
+    - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/mattbakker/
-    - icon: fas fa-google
+    - icon: fab fa-google
       href: https://scholar.google.com/citations?hl=en&user=7so5LmIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: "researchgate"
-      icon_pack: fab fa-researchgate fa-1x
+    - icon: fab fa-researchgate
       href: https://www.researchgate.net/profile/Matthew_Bakker
 
 output:
