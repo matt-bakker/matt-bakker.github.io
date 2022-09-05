@@ -13,7 +13,7 @@
 
 <title>Lab members</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -67,6 +67,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -91,6 +92,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -148,11 +152,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -243,7 +251,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -313,7 +321,19 @@ $(document).ready(function () {
 <p><img src="media/Bakker_profile.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 <div id="dr.-matthew-bakker" class="section level3">
 <h3>Dr. Matthew Bakker</h3>
-<p><em>Principal investigator.</em> Matthew completed his PhD in Plant Pathology at the <a href="https://plpa.cfans.umn.edu/" target="_blank">University of Minnesota</a>. He did a post-doc at <a href="https://www.colostate.edu/" target="_blank">Colorado State University</a> and worked as a staff scientist with the <a href="https://www.ars.usda.gov/" target="_blank">U.S. Department of Agriculture</a> before joining the <a href="http://www.sci.umanitoba.ca/micro/" target="_blank">Department of Microbiology</a> at the <a href="https://umanitoba.ca/" target="_blank">University of Manitoba</a>. Matthew teaches <em>Microbes In Our Environment</em>, <em>Introductory Biogeochemistry</em>, and contributes to <em>Graduate Microbiology</em> and to <em>Evolution in Fungal Pathogens</em>.</p>
+<p><em>Principal investigator.</em> <br> Matthew completed his PhD in
+Plant Pathology at the <a href="https://plpa.cfans.umn.edu/"
+target="_blank">University of Minnesota</a>. He did a post-doc at <a
+href="https://www.colostate.edu/" target="_blank">Colorado State
+University</a> and worked as a staff scientist with the <a
+href="https://www.ars.usda.gov/" target="_blank">U.S. Department of
+Agriculture</a> before joining the <a
+href="http://www.sci.umanitoba.ca/micro/" target="_blank">Department of
+Microbiology</a> at the <a href="https://umanitoba.ca/"
+target="_blank">University of Manitoba</a>. Matthew teaches <em>Microbes
+In Our Environment</em>, <em>Introductory Biogeochemistry</em>, and
+contributes to <em>Graduate Microbiology</em> and to <em>Evolution in
+Fungal Pathogens</em>.</p>
 <p>
 </br>
 </p>
@@ -329,9 +349,14 @@ $(document).ready(function () {
 <p><img src="media/Jayathissa_Anuradha_2021.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 </div>
 <div id="anuradha-jayathissa" class="section level3">
-<h3><a href="https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/" target="_blank">Anuradha Jayathissa</a></h3>
+<h3><a href="https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/"
+target="_blank">Anuradha Jayathissa</a></h3>
 <p><em>PhD student.</em><br />
-Anuradha is studying impacts of <em>Fusarium</em> spp. on malt quality, and investigating hydrophobin proteins produced by <em>Fusarium</em>. Anuradha is a fellow in the <a href="https://twitter.com/evofunpath?lang=en" target="_blank">EvoFunPath training program</a>.</p>
+Anuradha is studying impacts of <em>Fusarium</em> spp. on malt quality,
+and investigating hydrophobin proteins produced by <em>Fusarium</em>.
+Anuradha is a fellow in the <a
+href="https://twitter.com/evofunpath?lang=en" target="_blank">EvoFunPath
+training program</a>.</p>
 <p><img src = "media/EvoFunPath_logo.png" style = "width: 30%; margin-left: 20px" align = "left"></p>
 <p>
 </br>
@@ -354,9 +379,14 @@ Anuradha is studying impacts of <em>Fusarium</em> spp. on malt quality, and inve
 <p><img src="media/Fajardo_Janice.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 </div>
 <div id="janice-fajardo" class="section level3">
-<h3><a href="https://www.linkedin.com/in/janice-fajardo/" target="_blank">Janice Fajardo</a></h3>
+<h3><a href="https://www.linkedin.com/in/janice-fajardo/"
+target="_blank">Janice Fajardo</a></h3>
 <p><em>MSc student.</em><br />
-Janice is investigating potential biocontrol agents against the fungal plant pathogen <em>Fusarium graminearum</em>. Her objective is to elucidate interactions between these microorganisms and find products that can reduce the growth of <em>F. graminearum</em> and its production of the mycotoxin deoxynivalenol in malting environments.</p>
+Janice is investigating potential biocontrol agents against the fungal
+plant pathogen <em>Fusarium graminearum</em>. Her objective is to
+elucidate interactions between these microorganisms and find products
+that can reduce the growth of <em>F. graminearum</em> and its production
+of the mycotoxin deoxynivalenol in malting environments.</p>
 <p>
 </br>
 </p>
@@ -372,9 +402,14 @@ Janice is investigating potential biocontrol agents against the fungal plant pat
 <p><img src="media/Farhana_Tarin.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 </div>
 <div id="tarin-farhana" class="section level3">
-<h3><a href="https://www.linkedin.com/in/tarin-farhana-59371268/" target="_blank">Tarin Farhana</a></h3>
-<p><em>MSc student (co-advised with <a href="https://www.researchgate.net/profile/Douglas-Cattani" target="_blank">Dr. Doug Cattani</a>).</em><br />
-Tarin is researching fungal diseases of an emerging perennial grain crop, <a href="https://kernza.org/" target="_blank">Intermediate Wheatgrass</a>.</p>
+<h3><a href="https://www.linkedin.com/in/tarin-farhana-59371268/"
+target="_blank">Tarin Farhana</a></h3>
+<p><em>MSc student (co-advised with <a
+href="https://www.researchgate.net/profile/Douglas-Cattani"
+target="_blank">Dr. Doug Cattani</a>).</em><br />
+Tarin is researching fungal diseases of an emerging perennial grain
+crop, <a href="https://kernza.org/" target="_blank">Intermediate
+Wheatgrass</a>.</p>
 <p>
 </br>
 </p>
@@ -399,9 +434,16 @@ Tarin is researching fungal diseases of an emerging perennial grain crop, <a hre
 <p><img src="media/Kurera_Mayantha.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 </div>
 <div id="mayantha-shimosh-kurera" class="section level3">
-<h3><a href="https://www.linkedin.com/in/mayantha-kurera-ba22981b1/" target="_blank">Mayantha Shimosh Kurera</a></h3>
-<p><em>MSc student (co-advised with <a href="https://www.grainscanada.gc.ca/en/about-us/contact-us/sc-exp/sean-walkowiak.html" target="_blank">Dr. Sean Walkowiak</a>).</em></p>
-<p>Shimosh is developing methods for rapidly identifying unknown <em>Fusarium</em> and rust strains via MALDI biotyping.</p>
+<h3><a href="https://www.linkedin.com/in/mayantha-kurera-ba22981b1/"
+target="_blank">Mayantha Shimosh Kurera</a></h3>
+<p><em>MSc student (co-advised with <a
+href="https://www.grainscanada.gc.ca/en/about-us/contact-us/sc-exp/sean-walkowiak.html"
+target="_blank">Dr. Sean Walkowiak</a>).</em></p>
+<p>Shimosh is developing methods for rapidly identifying unknown
+<em>Fusarium</em> and rust strains via MALDI biotyping. Shimosh is a
+fellow in the <a href="https://twitter.com/evofunpath?lang=en"
+target="_blank">EvoFunPath training program</a>.</p>
+<p><img src = "media/EvoFunPath_logo.png" style = "width: 30%; margin-left: 20px" align = "left"></p>
 <p>
 </br>
 </p>
@@ -420,69 +462,15 @@ Tarin is researching fungal diseases of an emerging perennial grain crop, <a hre
 <p><img src="media/Mohammadiani_Mehrdad.JPG" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
 </div>
 <div id="mehrdad-mohammadiani" class="section level3">
-<h3><a href="https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/" target="_blank">Mehrdad Mohammadiani</a></h3>
+<h3><a
+href="https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/"
+target="_blank">Mehrdad Mohammadiani</a></h3>
 <p><em>MSc student.</em><br />
-Mehrdad is researching how cropping systems impact soil microbiomes, and whether soil microbiome characterization can inform soil health assessment. Collaborative research with <a href="https://profils-profiles.science.gc.ca/en/profile/dr-stephen-crittenden" target="_blank">Steve Crittenden</a> and Oscar Molina.</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p><img src="media/Melnichuk_Natasha.jpeg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
-</div>
-<div id="natasha-melnichuk" class="section level3">
-<h3><a href="https://www.linkedin.com/in/natasha-melnichuk-854415151/" target="_blank">Natasha Melnichuk</a></h3>
-<p><em>Visiting scholar / PhD student intern.</em><br />
-Natasha is visiting from the Universidad Nacional de Rosario in Argentina, to research enzymes from <em>Fusarium graminearum</em>. Her internship is made possible by a scholarship from the <a href="https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng" target="_blank">Emerging Leaders in the Americas Program</a>.</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p><img src="media/Pascual_Danielle.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
-</div>
-<div id="danielle-pascual" class="section level3">
-<h3><a href="https://www.linkedin.com/in/danielle-pascual-1556191b9/" target="_blank">Danielle Pascual</a></h3>
-<p><em>Co-op student.</em><br />
-Danielle is characterizing barley floral tissues at a microbial scale, via electron microscopy.</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p><img src="media/Monayao_Athena.jpg" width="30%" style = "float:right; padding:10px" style="display: block; margin: auto 0 auto auto;" /></p>
-</div>
-<div id="athena-monayao" class="section level3">
-<h3><a href="https://www.linkedin.com/in/athena-hillary-monayao-9741841b7/" target="_blank">Athena Monayao</a></h3>
-<p><em>Co-op student.</em><br />
-Athena is supporting our research into hydrophobins of <em>F. graminearum</em>.</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
-<p>
-</br>
-</p>
+Mehrdad is researching how cropping systems impact soil microbiomes, and
+whether soil microbiome characterization can inform soil health
+assessment. Collaborative research with <a
+href="https://profils-profiles.science.gc.ca/en/profile/dr-stephen-crittenden"
+target="_blank">Steve Crittenden</a> and Oscar Molina.</p>
 <p>
 </br>
 </p>
@@ -493,10 +481,23 @@ Athena is supporting our research into hydrophobins of <em>F. graminearum</em>.<
 </br>
 </p>
 </div>
-<div id="jenny-solanki" class="section level3">
-<h3>Jenny Solanki</h3>
-<p><em>Undergraduate summer research awardee.</em><br />
-Jenny is developing a research project that investigates the impacts of other microbes on the growth of <em>F. graminearum</em> under malting-like conditions.</p>
+<div id="brian-harrison" class="section level3">
+<h3>Brian Harrison</h3>
+<p><em>MSc student.</em><br />
+Brian is researching trichothecene mycotoxins that are produced by the
+fungal plant pathogen <em>Fusarium graminearum</em>. Brian is a fellow
+in the <a href="https://twitter.com/evofunpath?lang=en"
+target="_blank">EvoFunPath training program</a>.</p>
+<p><img src = "media/EvoFunPath_logo.png" style = "width: 30%; margin-left: 20px" align = "left"></p>
+<p>
+</br>
+</p>
+<p>
+</br>
+</p>
+<p>
+</br>
+</p>
 <p>
 </br>
 </p>
@@ -507,22 +508,55 @@ Jenny is developing a research project that investigates the impacts of other mi
 </div>
 <div id="lab-alumni-from-u-manitoba" class="section level2">
 <h2>Lab alumni from U Manitoba</h2>
+<p><a href="https://www.linkedin.com/in/natasha-melnichuk-854415151/"
+target="_blank">Natasha Melnichuk</a>, <em>PhD student intern</em></p>
+<p><a href="https://www.linkedin.com/in/danielle-pascual-1556191b9/"
+target="_blank">Danielle Pascual</a>, <em>Co-op</em></p>
+<p><a
+href="https://www.linkedin.com/in/athena-hillary-monayao-9741841b7/"
+target="_blank">Athena Monayao</a>, <em>Co-op</em></p>
+<p><a href="https://www.linkedin.com/in/jenny-solanki-98930920a/"
+target="_blank">Jenny Solanki</a>, <em>Undergraduate summer
+research</em></p>
 <p>Urim Iyasere, <em>Co-op</em></p>
-<p><a href="https://www.linkedin.com/in/arshani-alukumura-9b1a64152/" target="_blank">Arshani Alukumbura</a>, <em>MSc</em></p>
+<p><a href="https://www.linkedin.com/in/arshani-alukumura-9b1a64152/"
+target="_blank">Arshani Alukumbura</a>, <em>MSc</em></p>
 <p>Heidi Ahrenholtz, <em>Co-op</em></p>
 <p>Damian Elizalde Amezcua, <em>Undergraduate honours</em></p>
-<p><a href="https://www.linkedin.com/in/meagan-smith-5a6683213/" target="_blank">Meagan Smith</a>, <em>Undergraduate summer research</em></p>
+<p><a href="https://www.linkedin.com/in/meagan-smith-5a6683213/"
+target="_blank">Meagan Smith</a>, <em>Undergraduate summer
+research</em></p>
 <p>Brian Harrison, <em>Co-op</em></p>
 <p>Shana Mann, <em>Indigenous Summer Student Intern</em></p>
 <p>Heather Inglis, <em>Undergraduate</em></p>
-<p><a href="https://www.linkedin.com/in/shaimaa-eissa-msc-136013112/" target="_blank">Shaima Eissa</a>, <em>Lab Technician III</em></p>
+<p><a href="https://www.linkedin.com/in/shaimaa-eissa-msc-136013112/"
+target="_blank">Shaima Eissa</a>, <em>Lab Technician III</em></p>
 </div>
-<div id="lab-alumni-from-us-department-of-agriculture" class="section level2">
+<div id="lab-alumni-from-us-department-of-agriculture"
+class="section level2">
 <h2>Lab alumni from US Department of Agriculture</h2>
-<p><a href="https://www.researchgate.net/profile/Hina_Shanakhat" target="_blank">Dr. Hina Shanakhat</a>, <em>PhD student intern</em></p>
-<p><a href="https://www.ars.usda.gov/midwest-area/peoria-il/national-center-for-agricultural-utilization-research/mycotoxin-prevention-and-applied-microbiology-research/people/briana-whitaker/" target="_blank">Dr. Briana Whitaker</a>, <em>PhD student intern</em>   <a href="https://doi.org/10.1093/femsec/fiy237" target="_blank">Bacterial endophyte antagonism toward a fungal pathogen <em>in vitro</em> does not predict protection in live plant tissue</a></p>
-<p><a href="https://www.ars.usda.gov/midwest-area/peoria-il/national-center-for-agricultural-utilization-research/mycotoxin-prevention-and-applied-microbiology-research/people/jacob-brown/" target="_blank">Jake Brown</a>, <em>Technician</em></p>
-<p><a href="https://www.ars.usda.gov/people-locations/person?person-id=53790" target="_blank">Nathan Kemp</a>, <em>Research Associate</em>   <a href="https://doi.org/10.1016/j.biocontrol.2020.104329" target="_blank"><em>Sarocladium zeae</em> is a systemic endophyte of wheat and an effective biocontrol agent against fusarium head blight</a></p>
+<p><a href="https://www.researchgate.net/profile/Hina_Shanakhat"
+target="_blank">Dr. Hina Shanakhat</a>, <em>PhD student intern</em>   <a
+href="https://www.mdpi.com/2072-6651/14/8/548"
+target="_blank">Modification of deoxynivalenol by a fungal laccase
+paired with redox mediator TEMPO</a></p>
+<p><a
+href="https://www.ars.usda.gov/midwest-area/peoria-il/national-center-for-agricultural-utilization-research/mycotoxin-prevention-and-applied-microbiology-research/people/briana-whitaker/"
+target="_blank">Dr. Briana Whitaker</a>, <em>PhD student intern</em>  
+<a href="https://doi.org/10.1093/femsec/fiy237"
+target="_blank">Bacterial endophyte antagonism toward a fungal pathogen
+<em>in vitro</em> does not predict protection in live plant
+tissue</a></p>
+<p><a
+href="https://www.ars.usda.gov/midwest-area/peoria-il/national-center-for-agricultural-utilization-research/mycotoxin-prevention-and-applied-microbiology-research/people/jacob-brown/"
+target="_blank">Jake Brown</a>, <em>Technician</em></p>
+<p><a
+href="https://www.ars.usda.gov/people-locations/person?person-id=53790"
+target="_blank">Nathan Kemp</a>, <em>Research Associate</em>   <a
+href="https://doi.org/10.1016/j.biocontrol.2020.104329"
+target="_blank"><em>Sarocladium zeae</em> is a systemic endophyte of
+wheat and an effective biocontrol agent against fusarium head
+blight</a></p>
 <p>Kelsey Roberts, <em>Undergraduate summer research</em></p>
 </div>
 
