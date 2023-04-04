@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138158950-1"></script>
 <script>
@@ -67,6 +67,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -91,6 +92,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -148,11 +152,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -181,8 +189,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +198,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -243,7 +244,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -310,7 +311,10 @@ $(document).ready(function () {
 </div>
 
 
-<p>Our research investigates species interactions (microbe-microbe, microbe-plant, microbe-insect) that impact the sustainability and productivity of cropping systems. Some of our current study systems include:</p>
+<p>Our research investigates species interactions (microbe-microbe,
+microbe-plant, microbe-insect) that impact the sustainability and
+productivity of cropping systems. Some of our current study systems
+include:</p>
 <p>
 </br>
 </p>
@@ -319,7 +323,11 @@ $(document).ready(function () {
 <figure>
 <img src = "media/FHB_Brandon_e.jpg" style = "width: 30%; border: 3px solid; margin-right: 20px" align = "left">
 <figcaption>
-<p>Most of our research projects connect to fusarium head blight, an economically costly plant disease that is associated with accumulation of hazardous mycotoxins. We are particularly interested in achieving an ecological understanding of the fusarium head blight pathogen and its interactions with cereal crops and with other microbes.</p>
+<p>Most of our research projects connect to fusarium head blight, an
+economically costly plant disease that is associated with accumulation
+of hazardous mycotoxins. We are particularly interested in achieving an
+ecological understanding of the fusarium head blight pathogen and its
+interactions with cereal crops and with other microbes.</p>
 <em>Fusarium head blight on barley</em>
 </figcaption>
 </figure>
@@ -338,7 +346,13 @@ $(document).ready(function () {
 <figure>
 <img src = "media/malt.jpg" style = "width: 30%; margin-right: 20px" align = "left">
 <figcaption>
-<p>Malting is a process of controlled germination that is used to stimulate the production of enzymes that convert starch into fermentable sugars. While not the target of management, there is also a lot of microbial activity that takes place during malting. We study various aspects of the microbiology of malt, particularly with connections to the activity of <em>Fusarium</em> spp., which have been linked to some malt quality defects.</p>
+<p>Malting is a process of controlled germination that is used to
+stimulate the production of enzymes that convert starch into fermentable
+sugars. While not the target of management, there is also a lot of
+microbial activity that takes place during malting. We study various
+aspects of the microbiology of malt, particularly with connections to
+the activity of <em>Fusarium</em> spp., which have been linked to some
+malt quality defects.</p>
 <em>Germinating barley, with Fusarium growth evident</em>
 </figcaption>
 </figure>
@@ -354,7 +368,10 @@ $(document).ready(function () {
 <figure>
 <img src = "media/DON_structure.png" style = "width: 30%; border: 3px solid; margin-right: 20px" align = "left">
 <figcaption>
-<p>The amazing metabolic abilities of the microbial world are still largely unknown. We are doing our small part to uncover this vast potential by prospecting for microbes and enzymes that are able to chemically transform mycotoxins such as deoxynivalenol.</p>
+<p>The amazing metabolic abilities of the microbial world are still
+largely unknown. We are doing our small part to uncover this vast
+potential by prospecting for microbes and enzymes that are able to
+chemically transform mycotoxins such as deoxynivalenol.</p>
 <em>Chemical structure of deoxynivalenol</em>
 </figcaption>
 </figure>
@@ -368,13 +385,18 @@ $(document).ready(function () {
 </br>
 </p>
 </div>
-<div id="soil-health-and-disease-suppressive-soils" class="section level3">
+<div id="soil-health-and-disease-suppressive-soils"
+class="section level3">
 <h3>Soil health and disease suppressive soils</h3>
 <figure>
 <img src = "media/soil_newdale.jpg" style = "width: 30%; border: 3px solid; margin-right: 20px" align = "left">
 <figcaption>
-<p>Soils harbour astonishing microbial diversity, and those microbes perform vital functions that support productivity. One of the functions we’re most interested in is the control of plant pathogens by other members of the soil microbiome.</p>
-<em>Newdale, Manitoba’s provincial soil; photo via University of Manitoba</em>
+<p>Soils harbour astonishing microbial diversity, and those microbes
+perform vital functions that support productivity. One of the functions
+we’re most interested in is the control of plant pathogens by other
+members of the soil microbiome.</p>
+<em>Newdale, Manitoba’s provincial soil; photo via University of
+Manitoba</em>
 </figcaption>
 </figure>
 <p>
@@ -395,8 +417,15 @@ $(document).ready(function () {
 <figure>
 <img src = "media/IWG_rachis_fungi.jpeg" style = "width: 30%; border: 3px solid; margin-right: 20px" align = "left">
 <figcaption>
-<p>We study two diseases of <a href="https://kernza.org/" target="_blank">intermediate wheatgrass</a>, fusarium head blight and ergot, in collaboration with <a href="https://www.researchgate.net/profile/Douglas_Cattani" target="_blank">Dr. Doug Cattani</a> and <a href="https://landinstitute.org/about-us/staff/kathryn-turner/" target="_blank">Dr. Kathryn Turner</a>.</p>
-<em>Fungal hyphae growing on the rachis of intermediate wheatgrass (Thinopyrum intermedium)</em>
+<p>We study two diseases of <a href="https://kernza.org/"
+target="_blank">intermediate wheatgrass</a>, fusarium head blight and
+ergot, in collaboration with <a
+href="https://www.researchgate.net/profile/Douglas_Cattani"
+target="_blank">Dr. Doug Cattani</a> and <a
+href="https://landinstitute.org/about-us/staff/kathryn-turner/"
+target="_blank">Dr. Kathryn Turner</a>.</p>
+<em>Fungal hyphae growing on the rachis of intermediate wheatgrass
+(Thinopyrum intermedium)</em>
 </figcaption>
 </figure>
 <p>
@@ -420,9 +449,11 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<div id="we-gratefully-acknowledge-financial-support-from" class="section level4">
+<div id="we-gratefully-acknowledge-financial-support-from"
+class="section level4">
 <h4>We gratefully acknowledge financial support from:</h4>
-<img src = "media/CFI_CMYK.png" style = "width: 55%; margin-left: 10px" align = "left"> <img src = "media/RM_logo.png" style = "width: 35%; margin-left: 20px" align = "right">
+<img src = "media/CFI_CMYK.png" style = "width: 55%; margin-left: 10px" align = "left">
+<img src = "media/RM_logo.png" style = "width: 35%; margin-left: 20px" align = "right">
 <p>
 </br>
 </p>
@@ -438,7 +469,8 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<img src = "media/cap_banner3-eng.jpg" style = "width: 50%; margin-left: 30px" align = "left"> <img src = "media/NSERC_RGB.png" style = "width: 25%; margin-right: 20px" align = "right">
+<img src = "media/cap_banner3-eng.jpg" style = "width: 50%; margin-left: 30px" align = "left">
+<img src = "media/NSERC_RGB.png" style = "width: 25%; margin-right: 20px" align = "right">
 <p>
 </br>
 </p>
@@ -457,7 +489,8 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<img src = "media/Logo_Departmental.png" style = "width: 50%; margin-left: 20px" align = "left"> <img src = "media/ManitobaCropAlliance_logo.png" style = "width: 35%; margin-right: 20px" align = "right">
+<img src = "media/Logo_Departmental.png" style = "width: 50%; margin-left: 20px" align = "left">
+<img src = "media/ManitobaCropAlliance_logo.png" style = "width: 35%; margin-right: 20px" align = "right">
 <p>
 </br>
 </p>
@@ -473,7 +506,8 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<img src = "media/MPSG_logo.png" style = "width: 35%; margin-left: 20px" align = "left"> <img src = "media/SaskBarley_logo.png" style = "width: 35%; margin-right: 20px" align = "right">
+<img src = "media/MPSG_logo.png" style = "width: 35%; margin-left: 20px" align = "left">
+<img src = "media/SaskBarley_logo.png" style = "width: 35%; margin-right: 20px" align = "right">
 <p>
 </br>
 </p>
@@ -489,7 +523,8 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<img src = "media/WGRF_logo.png" style = "width: 35%; margin-left: 20px" align = "left"> <img src = "media/SaskWheat_logo.png" style = "width: 37%; margin-right: 20px" align = "right">
+<img src = "media/WGRF_logo.png" style = "width: 35%; margin-left: 20px" align = "left">
+<img src = "media/SaskWheat_logo.png" style = "width: 37%; margin-right: 20px" align = "right">
 <p>
 </br>
 </p>
@@ -505,7 +540,8 @@ $(document).ready(function () {
 <p>
 </br>
 </p>
-<p><img src = "media/ASBC_logo.png" style = "width: 35%; margin-left: 20px" align = "left"> <img src = "media/MIAP_logo.png" style = "width: 37%; margin-right: 20px" align = "right"></p>
+<p><img src = "media/ASBC_logo.png" style = "width: 35%; margin-left: 20px" align = "left">
+<img src = "media/MIAP_logo.png" style = "width: 37%; margin-right: 20px" align = "right"></p>
 </div>
 </div>
 
