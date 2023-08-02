@@ -8,8 +8,8 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
-    - text: "People"
-      href: people.html
+    - text: "Team"
+      href: team.html
     - text: "Publications"
       href: publications.html
     - text: "Join us!"
