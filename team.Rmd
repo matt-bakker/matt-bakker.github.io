@@ -96,11 +96,19 @@ Kelsey is studying the evolution of resistance towards fungicides in
 
 <p></br></p>
 
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
+```
+
 ### [Raveena Manikku Badu](https://www.linkedin.com/in/raveena-manikku-badu-5b827410a/){target="_blank"}
 *Technician.*\
 Raveena helps keep the lab running smoothly, and
 researches impacts of soil bacteria on plant roots.
 
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
 <p></br></p>
 
 ### Atheena Quilal-lan
