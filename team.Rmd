@@ -170,6 +170,10 @@ Heather Inglis, *Undergraduate*
 [Shaima Eissa](https://www.linkedin.com/in/shaimaa-eissa-msc-136013112/){target="_blank"},
 *Lab Technician III*
 
+```{r echo = FALSE, fig.align = "left", out.width = '90%'}
+knitr::include_graphics("media/Gantt.png")
+```
+
 ## Lab alumni from US Department of Agriculture
 [Dr. Hina Shanakhat](https://www.researchgate.net/profile/Hina_Shanakhat){target="_blank"},
 *PhD student intern*\
