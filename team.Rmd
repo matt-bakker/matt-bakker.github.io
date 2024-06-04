@@ -45,7 +45,7 @@ Fernando](https://sites.google.com/view/dilanthafernando/what-does-the-lab-speci
 Anuradha is studying impacts of *Fusarium* spp. on malt quality, and
 investigating hydrophobin proteins produced by *Fusarium*. Anuradha is
 an alumnus of the [EvoFunPath training
-program](https://twitter.com/evofunpath?lang=en){target="_blank"}.
+program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
@@ -65,7 +65,7 @@ Walkowiak](https://www.grainscanada.gc.ca/en/about-us/contact-us/sc-exp/sean-wal
 Shimosh is developing methods for rapidly identifying unknown *Fusarium*
 and rust strains via MALDI biotyping. Shimosh is an alumnus of the
 [EvoFunPath training
-program](https://twitter.com/evofunpath?lang=en){target="_blank"}.
+program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
@@ -80,7 +80,7 @@ program](https://twitter.com/evofunpath?lang=en){target="_blank"}.
 Brian is researching trichothecene mycotoxins that are produced by the
 fungal plant pathogen *Fusarium graminearum*. Brian is an alumnus of the
 [EvoFunPath training
-program](https://twitter.com/evofunpath?lang=en){target="_blank"}.
+program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
@@ -111,9 +111,39 @@ researches impacts of soil bacteria on plant roots.
 <p></br></p>
 <p></br></p>
 
+### Anna-Maria Volakaki
+*PhD student (co-advised with [Dr. Olivia Wilkins](https://www.oliviawilkinslab.com/){target="_blank"}).*\
+Anna is characterizing effects of different soil bacteria on plant physiology and nutrient uptake.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+### Kyle Remillard
+*Undergraduate summer research.*\
+Kyle is working on biosensors for deoxynivalenol.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+### Guenael Artus
+*Mitacs Globalink visiting scholar.*\
+Guenael is isolating and characterizing soil bacteria from Canadian cropping systems.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
 ## Lab alumni
 
-Atheena Quilal-lan, *Undergraduate*
+Atheena Quilal-lan, *Undergraduate research project*
 
 [Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*
 
