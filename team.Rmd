@@ -97,6 +97,21 @@ Kelsey is studying the evolution of resistance towards fungicides in
 <p></br></p>
 
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Volakaki_Anna.jpeg")
+```
+
+### [Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"}
+*PhD student (co-advised with [Dr. Olivia Wilkins](https://www.oliviawilkinslab.com/){target="_blank"}).*\
+Anna is characterizing effects of different soil bacteria on plant physiology and nutrient uptake.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
 knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
 ```
 
@@ -111,34 +126,22 @@ researches impacts of soil bacteria on plant roots.
 <p></br></p>
 <p></br></p>
 
-### Anna-Maria Volakaki
-*PhD student (co-advised with [Dr. Olivia Wilkins](https://www.oliviawilkinslab.com/){target="_blank"}).*\
-Anna is characterizing effects of different soil bacteria on plant physiology and nutrient uptake.
+### [Laura Los](https://www.linkedin.com/in/laura-dominika-los-/){target="_blank"}
+*Technician.*\
+Laura is contributing to several research projects, including profiling mixed oomycete communities from soil and diseased roots, characterizing impacts of *Fusarium* on malt quality, and screening wild populations of *Fusarium graminearum* for resistance to fungicides.
 
 <p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
 
-### Kyle Remillard
+### [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}
 *Undergraduate summer research.*\
 Kyle is working on biosensors for deoxynivalenol.
 
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
 <p></br></p>
 
 ### Guénaël Artus
 *Mitacs Globalink visiting scholar.*\
 Guénaël is isolating and characterizing soil bacteria from Canadian cropping systems.
 
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
 <p></br></p>
 
 ## Lab alumni
