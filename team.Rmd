@@ -87,6 +87,11 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 <p></br></p>
 <p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "right", out.width = '25%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Wog_Kelsey.png")
+```
 
 ### [Kelsey Wog](https://www.linkedin.com/in/kelsey-wog-ab438621b/){target="_blank"}
 *MSc student (co-advised with [Dr. Aleeza
@@ -97,6 +102,9 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
+<p></br></p>
+<p></br></p>
+<p></br></p>
 <p></br></p>
 <p></br></p>
 <p></br></p>
@@ -141,11 +149,22 @@ Laura is contributing to several research projects, including profiling mixed oo
 Ambroise is working with CRISPR gene editing in *Fusarium graminearum*.
 
 <p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Selvarajan_Hariniha.jpg")
+```
 
 ### [Hariniha Selvarajan](https://www.linkedin.com/in/hariniha-selvarajan-637127217/){target="_blank"}
 *MSc student.*\
 Hariniha is investigating interactions between *Fusarium graminearum* and bioactive compounds in barley. 
 
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
 <p></br></p>
 
 ## Lab alumni
@@ -156,9 +175,9 @@ Guénaël Artus, *Mitacs Globalink visiting scholar*
 
 Atheena Quilal-lan, *Undergraduate research project*
 
-[Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*
+[Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc* "Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
 
-[Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*
+[Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc* "How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
 
 Ridhima Arora, *Undergraduate*
 
@@ -174,7 +193,8 @@ Gillian Mitchell-Lawson, *Co-op*
 
 [Daksh Patel](https://www.linkedin.com/in/daksh-patel-63b605225/){target="_blank"}, *Co-op*
 
-[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc*
+[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc* "Relationships among *Fusarium graminearum* infection, phenolic acid content, and the
+presence of a competing fungus in malting barley"
 
 [Natasha Melnichuk](https://www.linkedin.com/in/natasha-melnichuk-854415151/){target="_blank"}, *PhD student intern*
 
