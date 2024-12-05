@@ -114,7 +114,7 @@ knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
 ```
 
 ### [Raveena Manikku Badu](https://www.linkedin.com/in/raveena-manikku-badu-5b827410a/){target="_blank"}
-*Technician.*\
+*Technician 3.*\
 Raveena helps keep the lab running smoothly, and works on soil bacterial isolations & genomics.
 
 <p></br></p>
@@ -139,17 +139,9 @@ Anna is characterizing effects of different soil bacteria on plant physiology an
 <p></br></p>
 
 ### [Laura Los](https://www.linkedin.com/in/laura-dominika-los-/){target="_blank"}
-*Technician.*\
+*Technician 3.*\
 Laura is contributing to several research projects, including profiling mixed oomycete communities from soil and diseased roots, characterizing impacts of *Fusarium* on malt quality, and screening wild populations of *Fusarium graminearum* for resistance to fungicides.
 
-<p></br></p>
-
-### Ambroise Loeb
-*Mitacs Globalink visiting scholar.*\
-Ambroise is working with CRISPR gene editing in *Fusarium graminearum*.
-
-<p></br></p>
-<p></br></p>
 <p></br></p>
 <p></br></p>
 
@@ -168,6 +160,8 @@ Hariniha is investigating interactions between *Fusarium graminearum* and bioact
 <p></br></p>
 
 ## Lab alumni
+
+[Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
 
 [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}, *Undergraduate summer research*
 
