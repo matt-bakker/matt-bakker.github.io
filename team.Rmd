@@ -201,7 +201,7 @@ Varishaa is screening wild strains of *Fusarium graminearum* for fungicide sensi
 
 
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Remillard_Kyle.jpg")
+knitr::include_graphics("media/Remillard_Kyle.JPG")
 ```
 
 ### [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}
