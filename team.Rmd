@@ -75,6 +75,10 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 <p></br></p>
 
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Harrison_Brian.png")
+```
+
 ### [Brian Harrison](https://www.linkedin.com/in/brian-h-95b54b1a3/){target="_blank"}
 *MSc student.*\
 Brian is researching trichothecene mycotoxins that are produced by the
@@ -84,6 +88,7 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
+<p></br></p>
 <p></br></p>
 <p></br></p>
 <p></br></p>
@@ -115,7 +120,7 @@ knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
 
 ### [Raveena Manikku Badu](https://www.linkedin.com/in/raveena-manikku-badu-5b827410a/){target="_blank"}
 *Technician 3.*\
-Raveena helps keep the lab running smoothly, and works on soil bacterial isolations & genomics.
+Raveena helps keep the lab running smoothly, and works on soil bacterial isolations, genome sequencing & genomics.
 
 <p></br></p>
 <p></br></p>
@@ -138,10 +143,16 @@ Anna is characterizing effects of different soil bacteria on plant physiology an
 <p></br></p>
 <p></br></p>
 
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Los_Laura.png")
+```
+
 ### [Laura Los](https://www.linkedin.com/in/laura-dominika-los-/){target="_blank"}
 *Technician 3.*\
-Laura is contributing to several research projects, including profiling mixed oomycete communities from soil and diseased roots, characterizing impacts of *Fusarium* on malt quality, and screening wild populations of *Fusarium graminearum* for resistance to fungicides.
+Laura is profiling mixed oomycete communities from soil and diseased roots, characterizing impacts of *Fusarium* on malt quality, and screening wild populations of *Fusarium graminearum* for resistance to fungicides.
 
+<p></br></p>
+<p></br></p>
 <p></br></p>
 <p></br></p>
 
@@ -159,6 +170,54 @@ Hariniha is investigating interactions between *Fusarium graminearum* and bioact
 <p></br></p>
 <p></br></p>
 
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Pages_Rebecca.jpeg")
+```
+
+### [Rebecca Pagès](https://www.linkedin.com/in/rebeccapages/){target="_blank"}
+*PhD student.*\
+Rebecca is using metagenomics to understand how soil microbial communities respond to plants and to agricultural inputs like urease inhibitors and nitrification inhibitors. 
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Rehman_Varisha.png")
+```
+
+### [Varisha Rehman](https://www.linkedin.com/in/varisha-rehman-245a432b6/){target="_blank"}
+*Co-op student.*\
+Varishaa is screening wild strains of *Fusarium graminearum* for fungicide sensitivity. 
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Remillard_Kyle.jpg")
+```
+
+### [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}
+*Undergraduate.*\
+Kyle is helping with the development of biosensors for reporting the presence of deoxynivalenol. 
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "left", out.width = '90%'}
+knitr::include_graphics("media/Gantt.png")
+```
+
 ## Lab alumni
 
 [Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
@@ -167,30 +226,36 @@ Hariniha is investigating interactions between *Fusarium graminearum* and bioact
 
 Guénaël Artus, *Mitacs Globalink visiting scholar*
 
-Atheena Quilal-lan, *Undergraduate research project*
+Atheena Quilal-lan, *Undergraduate honours project*
 
-[Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc* "Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
+[Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*\
+"Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
 
-[Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc* "How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
+[Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*\
+"How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
 
 Ridhima Arora, *Undergraduate*
 
-[Robin Nelson](https://www.linkedin.com/in/robin-nelson-a83061268){target="_blank"}, *Co-op*
+[Robin Nelson](https://www.linkedin.com/in/robin-nelson-a83061268){target="_blank"}, *Co-op*\
+[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
 
 [Raveena Manikku Badu](https://www.linkedin.com/in/raveena-manikku-badu-5b827410a/){target="_blank"}, *Co-op*
 
 [Linh Le](https://www.linkedin.com/in/linh-le-2b256a1a2/){target="_blank"}, *Undergraduate summer research*
 
-Gillian Mitchell-Lawson, *Co-op*
+Gillian Mitchell-Lawson, *Co-op*\
+[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
 
 [Mailly Pham](https://www.linkedin.com/in/phuong-pham-47175b242/){target="_blank"}, *Co-op*
 
 [Daksh Patel](https://www.linkedin.com/in/daksh-patel-63b605225/){target="_blank"}, *Co-op*
 
-[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc* "Relationships among *Fusarium graminearum* infection, phenolic acid content, and the
-presence of a competing fungus in malting barley"
+[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc*\
+[Microbiome profiling suggests novel endosymbiont associations of insect pests of stored grain](https://cdnsciencepub.com/doi/10.1139/cjm-2024-0095){target="_blank"}\
+[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
 
-[Natasha Melnichuk](https://www.linkedin.com/in/natasha-melnichuk-854415151/){target="_blank"}, *PhD student intern*
+[Natasha Melnichuk](https://www.linkedin.com/in/natasha-melnichuk-854415151/){target="_blank"}, *PhD student intern*\
+[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
 
 [Danielle Pascual](https://www.linkedin.com/in/danielle-pascual-1556191b9/){target="_blank"}, *Co-op*
 
@@ -205,7 +270,7 @@ Urim Iyasere, *Co-op*
 
 Heidi Ahrenholtz, *Co-op*
 
-Damian Elizalde Amezcua, *Undergraduate honours*
+Damian Elizalde Amezcua, *Undergraduate honours project*
 
 [Meagan
 Smith](https://www.linkedin.com/in/meagan-smith-5a6683213/){target="_blank"},
@@ -217,10 +282,6 @@ Heather Inglis, *Undergraduate*
 
 [Shaima Eissa](https://www.linkedin.com/in/shaimaa-eissa-msc-136013112/){target="_blank"},
 *Lab Technician III*
-
-```{r echo = FALSE, fig.align = "left", out.width = '90%'}
-knitr::include_graphics("media/Gantt.png")
-```
 
 ## Lab alumni from US Department of Agriculture
 [Dr. Hina Shanakhat](https://www.researchgate.net/profile/Hina_Shanakhat){target="_blank"},
