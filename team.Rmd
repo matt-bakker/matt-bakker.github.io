@@ -56,7 +56,7 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Kurera_Mayantha.jpg")
+knitr::include_graphics("media/Kurera_Shimosh.jpeg")
 ```
 
 ### [M. Shimosh Kurera](https://www.linkedin.com/in/mayantha-kurera-ba22981b1/){target="_blank"}
