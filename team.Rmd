@@ -34,27 +34,6 @@ Biogeochemistry*, and contributes to *Graduate Microbiology* and to
 <p></br></p>
 <p></br></p>
 <p></br></p>
-
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Jayathissa_Anuradha_2021.jpg")
-```
-
-### [Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"}
-*PhD candidate (co-advised with [Dr. Dilantha
-Fernando](https://sites.google.com/view/dilanthafernando/what-does-the-lab-specialize-in){target="_blank"}).*\
-Anuradha is studying impacts of *Fusarium* spp. on malt quality, and
-investigating hydrophobin proteins produced by *Fusarium*. Anuradha is
-an alumnus of the [EvoFunPath training
-program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
-
-<img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
-
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
 knitr::include_graphics("media/Kurera_Shimosh.jpeg")
 ```
@@ -128,21 +107,6 @@ Raveena helps keep the lab running smoothly, and works on soil bacterial isolati
 <p></br></p>
 <p></br></p>
 <p></br></p>
-
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Volakaki_Anna.jpeg")
-```
-
-### [Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"}
-*PhD student (co-advised with [Dr. Olivia Wilkins](https://www.oliviawilkinslab.com/){target="_blank"}).*\
-Anna is characterizing effects of different soil bacteria on plant physiology and nutrient uptake.
-
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
 knitr::include_graphics("media/Los_Laura.png")
 ```
@@ -219,14 +183,10 @@ knitr::include_graphics("media/Gantt.png")
 ```
 
 ## Lab alumni
-
-[Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
-
-[Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}, *Undergraduate summer research*
-
-Guénaël Artus, *Mitacs Globalink visiting scholar*
-
-Atheena Quilal-lan, *Undergraduate honours project*
+[Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"},
+*PhD*\
+[Impacts of pathogen strain and barley cultivar on Fusarium head blight in barley and during malting](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13918){target="_blank"}\
+[Microbiome dynamics during malting of barley grains infested by *Fusarium graminearum* strains](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13946){target="_blank"}
 
 [Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*\
 "Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
@@ -234,12 +194,27 @@ Atheena Quilal-lan, *Undergraduate honours project*
 [Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*\
 "How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
 
+[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc*\
+[Microbiome profiling suggests novel endosymbiont associations of insect pests of stored grain](https://cdnsciencepub.com/doi/10.1139/cjm-2024-0095){target="_blank"}\
+[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
+
+[Arshani Alukumbura](https://www.linkedin.com/in/arshani-alukumura-9b1a64152/){target="_blank"}, *MSc*\
+[Minimal impacts on the wheat microbiome when *Trichoderma gamsii* T6085 is applied as a biocontrol agent to manage fusarium head blight disease](https://www.frontiersin.org/articles/10.3389/fmicb.2022.972016/full){target="_blank"}
+
+
+[Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"}
+*graduate student*
+
+[Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
+
+Guénaël Artus, *Mitacs Globalink visiting scholar*
+
+Atheena Quilal-lan, *Undergraduate honours project*
+
 Ridhima Arora, *Undergraduate*
 
 [Robin Nelson](https://www.linkedin.com/in/robin-nelson-a83061268){target="_blank"}, *Co-op*\
 [Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
-
-[Raveena Manikku Badu](https://www.linkedin.com/in/raveena-manikku-badu-5b827410a/){target="_blank"}, *Co-op*
 
 [Linh Le](https://www.linkedin.com/in/linh-le-2b256a1a2/){target="_blank"}, *Undergraduate summer research*
 
@@ -249,10 +224,6 @@ Gillian Mitchell-Lawson, *Co-op*\
 [Mailly Pham](https://www.linkedin.com/in/phuong-pham-47175b242/){target="_blank"}, *Co-op*
 
 [Daksh Patel](https://www.linkedin.com/in/daksh-patel-63b605225/){target="_blank"}, *Co-op*
-
-[Janice Fajardo](https://www.linkedin.com/in/janice-fajardo/){target="_blank"}, *MSc*\
-[Microbiome profiling suggests novel endosymbiont associations of insect pests of stored grain](https://cdnsciencepub.com/doi/10.1139/cjm-2024-0095){target="_blank"}\
-[Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
 
 [Natasha Melnichuk](https://www.linkedin.com/in/natasha-melnichuk-854415151/){target="_blank"}, *PhD student intern*\
 [Interactions between *Fusarium graminearum* and hydroxycinnamic acids from cereal crops](https://www.tandfonline.com/doi/full/10.1080/07060661.2024.2435954){target="_blank"}
@@ -265,15 +236,11 @@ Gillian Mitchell-Lawson, *Co-op*\
 
 Urim Iyasere, *Co-op*
 
-[Arshani Alukumbura](https://www.linkedin.com/in/arshani-alukumura-9b1a64152/){target="_blank"}, *MSc*\
-[Minimal impacts on the wheat microbiome when *Trichoderma gamsii* T6085 is applied as a biocontrol agent to manage fusarium head blight disease](https://www.frontiersin.org/articles/10.3389/fmicb.2022.972016/full){target="_blank"}
-
 Heidi Ahrenholtz, *Co-op*
 
 Damian Elizalde Amezcua, *Undergraduate honours project*
 
-[Meagan
-Smith](https://www.linkedin.com/in/meagan-smith-5a6683213/){target="_blank"},
+[Meagan Smith](https://www.linkedin.com/in/meagan-smith-5a6683213/){target="_blank"},
 *Undergraduate summer research*
 
 Shana Mann, *Indigenous Summer Student Intern*
