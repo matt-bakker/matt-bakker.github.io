@@ -165,12 +165,12 @@ Varishaa is screening wild strains of *Fusarium graminearum* for fungicide sensi
 
 
 ```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Remillard_Kyle.JPG")
+knitr::include_graphics("media/Hoeppner_Avery.jpg")
 ```
 
-### [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"}
+### Avery Hoeppner
 *Undergraduate.*\
-Kyle is helping with the development of biosensors for reporting the presence of deoxynivalenol. 
+Avery is researching responses of *Fusarium graminearum* to plant polyamines. 
 
 <p></br></p>
 <p></br></p>
@@ -178,7 +178,21 @@ Kyle is helping with the development of biosensors for reporting the presence of
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "left", out.width = '90%'}
+```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+knitr::include_graphics("media/Mills_Sara.jpg")
+```
+
+### Sara Mills
+*Undergraduate.*\
+Sara is supporting our whole-plant experiments and our field sampling around southern Manitoba.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "left", out.width = '100%'}
 knitr::include_graphics("media/Gantt.png")
 ```
 
@@ -201,13 +215,15 @@ knitr::include_graphics("media/Gantt.png")
 [Arshani Alukumbura](https://www.linkedin.com/in/arshani-alukumura-9b1a64152/){target="_blank"}, *MSc*\
 [Minimal impacts on the wheat microbiome when *Trichoderma gamsii* T6085 is applied as a biocontrol agent to manage fusarium head blight disease](https://www.frontiersin.org/articles/10.3389/fmicb.2022.972016/full){target="_blank"}
 
+[Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"},
+*Undergraduate*\
 
 [Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"}
 *graduate student*
 
 [Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
 
-Guénaël Artus, *Mitacs Globalink visiting scholar*
+[Guénaël Artus](https://www.linkedin.com/in/gu%C3%A9na%C3%ABl-artus-21155129a/){target="_blank"}, *Mitacs Globalink visiting scholar*
 
 Atheena Quilal-lan, *Undergraduate honours project*
 
