@@ -46,6 +46,9 @@ and rust strains via MALDI biotyping. Shimosh is an alumnus of the
 [EvoFunPath training
 program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 
+[Rapid identification of Fusarium species causing head blight in Canada using MALDI-TOF mass spectrometry](https://cdnsciencepub.com/doi/10.1139/cjm-2025-0035){target="_blank"}\
+[Identifying Wheat Rusts Using MALDI-TOF Mass Spectrometry](https://link.springer.com/protocol/10.1007/978-1-0716-4378-5_8){target="_blank"}
+
 <img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
 <p></br></p>
@@ -154,7 +157,7 @@ knitr::include_graphics("media/Rehman_Varisha.png")
 
 ### [Varisha Rehman](https://www.linkedin.com/in/varisha-rehman-245a432b6/){target="_blank"}
 *Co-op student.*\
-Varishaa is screening wild strains of *Fusarium graminearum* for fungicide sensitivity. 
+Varisha is screening wild strains of *Fusarium graminearum* for fungicide sensitivity. 
 
 <p></br></p>
 <p></br></p>
@@ -169,7 +172,7 @@ knitr::include_graphics("media/Hoeppner_Avery.jpg")
 ```
 
 ### Avery Hoeppner
-*Undergraduate.*\
+*Co-op student + undergraduate student research awardee.*\
 Avery is researching responses of *Fusarium graminearum* to plant polyamines. 
 
 <p></br></p>
@@ -182,7 +185,7 @@ Avery is researching responses of *Fusarium graminearum* to plant polyamines.
 knitr::include_graphics("media/Mills_Sara.jpg")
 ```
 
-### Sara Mills
+### [Sara Mills](https://www.linkedin.com/in/sara-mills-62502b2b9/){target="_blank"}
 *Undergraduate.*\
 Sara is supporting our whole-plant experiments and our field sampling around southern Manitoba.
 
@@ -200,10 +203,12 @@ knitr::include_graphics("media/Gantt.png")
 [Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"},
 *PhD*\
 [Impacts of pathogen strain and barley cultivar on Fusarium head blight in barley and during malting](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13918){target="_blank"}\
-[Microbiome dynamics during malting of barley grains infested by *Fusarium graminearum* strains](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13946){target="_blank"}
+[Microbiome dynamics during malting of barley grains infested by *Fusarium graminearum* strains](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13946){target="_blank"}\
+[The role of HYD5 in *Fusarium*-barley interactions](https://www.tandfonline.com/eprint/DKTMZYG6FAEPWNRBE8IA/full?target=10.1080/07060661.2025.2518414){target="_blank"}
 
 [Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*\
 "Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
+[Biocontrol of soil-borne plant diseases](https://www.sciencedirect.com/science/article/pii/B9780128229743001105?via%3Dihub){target="_blank"}
 
 [Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*\
 "How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
@@ -279,4 +284,4 @@ Heather Inglis, *Undergraduate*
 [Nathan Kemp](https://www.ars.usda.gov/people-locations/person?person-id=53790){target="_blank"}, *Research Associate*\
 [*Sarocladium zeae* is a systemic endophyte of wheat and an effective biocontrol agent against fusarium head blight](https://doi.org/10.1016/j.biocontrol.2020.104329){target="_blank"}
 
-Kelsey Roberts, *Undergraduate summer research*
+[Kelsey Roberts](https://www.linkedin.com/in/kelseydroberts/){target="_blank"}, *Undergraduate summer research*
