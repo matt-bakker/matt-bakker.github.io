@@ -10,7 +10,7 @@ editor_options:
     wrap: 72
 ---
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Bakker_Matthew.jpg")
 ```
 
@@ -34,7 +34,7 @@ Biogeochemistry*, and contributes to *Graduate Microbiology* and to
 <p></br></p>
 <p></br></p>
 <p></br></p>
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Kurera_Shimosh.jpeg")
 ```
 
@@ -55,9 +55,8 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 <p></br></p>
 <p></br></p>
-<p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Harrison_Brian.png")
 ```
 
@@ -76,27 +75,7 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '25%', out.extra = 'style = "float:right; padding:10px"'}
-knitr::include_graphics("media/Wog_Kelsey.png")
-```
-
-### [Kelsey Wog](https://www.linkedin.com/in/kelsey-wog-ab438621b/){target="_blank"}
-*MSc student (co-advised with [Dr. Aleeza
-Gerstein](https://www.microstatslab.ca/){target="_blank"}).*\
-Kelsey is studying the evolution of resistance towards fungicides in
-*Fusarium graminearum*. Kelsey is a fellow of the [EvoFunPath training
-program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
-
-<img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
-
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
 ```
 
@@ -110,7 +89,7 @@ Raveena helps keep the lab running smoothly, and works on soil bacterial isolati
 <p></br></p>
 <p></br></p>
 <p></br></p>
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Los_Laura.png")
 ```
 
@@ -123,7 +102,7 @@ Laura is profiling mixed oomycete communities from soil and diseased roots, char
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Selvarajan_Hariniha.jpg")
 ```
 
@@ -137,7 +116,7 @@ Hariniha is investigating interactions between *Fusarium graminearum* and bioact
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Pages_Rebecca.jpeg")
 ```
 
@@ -151,7 +130,7 @@ Rebecca is using metagenomics to understand how soil microbial communities respo
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Rehman_Varisha.png")
 ```
 
@@ -167,12 +146,12 @@ Varisha is screening wild strains of *Fusarium graminearum* for fungicide sensit
 <p></br></p>
 
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Hoeppner_Avery.jpg")
 ```
 
-### Avery Hoeppner
-*Co-op student + undergraduate student research awardee.*\
+### [Avery Hoeppner](https://www.linkedin.com/in/avery-hoeppner-8034892b4/){target="_blank"}
+*Undergraduate honours research (former co-op student & undergraduate student research awardee).*\
 Avery is researching responses of *Fusarium graminearum* to plant polyamines. 
 
 <p></br></p>
@@ -181,7 +160,7 @@ Avery is researching responses of *Fusarium graminearum* to plant polyamines.
 <p></br></p>
 <p></br></p>
 
-```{r echo = FALSE, fig.align = "right", out.width = '30%', out.extra = 'style = "float:right; padding:10px"'}
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Mills_Sara.jpg")
 ```
 
@@ -194,21 +173,54 @@ Sara is supporting our whole-plant experiments and our field sampling around sou
 <p></br></p>
 <p></br></p>
 <p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
+knitr::include_graphics("media/Kyralova_Blanka.jpg")
+```
+
+### [Blanka Kyralová](https://www.linkedin.com/in/blanka-kyralová-261589152){target="_blank"}
+*PhD student.*\
+Blanka is researching the biological detoxification of trichothecene mycotoxins.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
+knitr::include_graphics("media/Dianbo_Sun.jpg")
+```
+
+### [Dianbo Sun](https://www.linkedin.com/in/dianbo-sun-737268301/){target="_blank"}
+*Undergraduate honours research.*\
+Dianbo is working on gene editing in *Fusarium graminearum*.
+
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
 
 ```{r echo = FALSE, fig.align = "left", out.width = '100%'}
 knitr::include_graphics("media/Gantt.png")
 ```
 
 ## Lab alumni
-[Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"},
+[Kelsey Wog](https://www.linkedin.com/in/kelsey-wog-ab438621b/){target="_blank"}, *MSc*\
+
+[Dr. Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"},
 *PhD*\
 [Impacts of pathogen strain and barley cultivar on Fusarium head blight in barley and during malting](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13918){target="_blank"}\
 [Microbiome dynamics during malting of barley grains infested by *Fusarium graminearum* strains](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13946){target="_blank"}\
 [The role of HYD5 in *Fusarium*-barley interactions](https://www.tandfonline.com/eprint/DKTMZYG6FAEPWNRBE8IA/full?target=10.1080/07060661.2025.2518414){target="_blank"}
 
 [Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*\
-"Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
 [Biocontrol of soil-borne plant diseases](https://www.sciencedirect.com/science/article/pii/B9780128229743001105?via%3Dihub){target="_blank"}
+"Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
 
 [Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*\
 "How *Fusarium graminearum* affects intermediate wheatgrass and its mycobiome"
@@ -223,8 +235,8 @@ knitr::include_graphics("media/Gantt.png")
 [Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"},
 *Undergraduate*\
 
-[Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"}
-*graduate student*
+[Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"},
+*Graduate student*
 
 [Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
 
