@@ -1,0 +1,10 @@
+---
+title: "Reporting Security Issues"
+tags: [Agricultural Microbial Ecology]
+output: 
+  html_document:
+    includes:
+       in_header: GA_Script.html
+---
+
+To report a security issue, please [contact me](contact.html).
