@@ -24,7 +24,7 @@ University](https://www.colostate.edu/){target="_blank"} and worked as a
 staff scientist with the [U.S. Department of
 Agriculture](https://www.ars.usda.gov/){target="_blank"} before joining
 the [Department of
-Microbiology](http://www.sci.umanitoba.ca/micro/){target="_blank"} at
+Microbiology](https://umanitoba.ca/science/microbiology/){target="_blank"} at
 the [University of Manitoba](https://umanitoba.ca/){target="_blank"}.
 Matthew teaches *Microbes In Our Environment*, *Introductory
 Biogeochemistry*, and contributes to *Graduate Microbiology* and to
@@ -57,25 +57,6 @@ program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
 <p></br></p>
 
 ```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
-knitr::include_graphics("media/Harrison_Brian.png")
-```
-
-### [Brian Harrison](https://www.linkedin.com/in/brian-h-95b54b1a3/){target="_blank"}
-*MSc student.*\
-Brian is researching trichothecene mycotoxins that are produced by the
-fungal plant pathogen *Fusarium graminearum*. Brian is an alumnus of the
-[EvoFunPath training
-program](https://evofunpath.ibis.ulaval.ca/){target="_blank"}.
-
-<img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
-
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-<p></br></p>
-
-```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
 knitr::include_graphics("media/Manikku_Badu_Raveena.jpeg")
 ```
 
@@ -90,13 +71,14 @@ Raveena helps keep the lab running smoothly, and works on soil bacterial isolati
 <p></br></p>
 <p></br></p>
 ```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
-knitr::include_graphics("media/Los_Laura.png")
+knitr::include_graphics("media/Los_Laura.jpg")
 ```
 
 ### [Laura Los](https://www.linkedin.com/in/laura-dominika-los-/){target="_blank"}
-*Technician 3.*\
-Laura is profiling mixed oomycete communities from soil and diseased roots, characterizing impacts of *Fusarium* on malt quality, and screening wild populations of *Fusarium graminearum* for resistance to fungicides.
+*MSc student.*\
+Laura is using metagenomics and metatranscriptomics to investigate how farmer management decisions impact microbial contributions to nitrous oxide emissions in agricultural soils. Her research is a part of the [LEAP project](https://umanitoba.ca/agricultural-food-sciences/leap){target="_blank"}.
 
+<p></br></p>
 <p></br></p>
 <p></br></p>
 <p></br></p>
@@ -109,6 +91,8 @@ knitr::include_graphics("media/Selvarajan_Hariniha.jpg")
 ### [Hariniha Selvarajan](https://www.linkedin.com/in/hariniha-selvarajan-637127217/){target="_blank"}
 *MSc student.*\
 Hariniha is investigating interactions between *Fusarium graminearum* and bioactive compounds in barley. 
+
+<img src="media/EvoFunPath_logo.png" style="width: 30%; margin-left: 20px" align="left"/>
 
 <p></br></p>
 <p></br></p>
@@ -204,22 +188,55 @@ Dianbo is working on gene editing in *Fusarium graminearum*.
 <p></br></p>
 <p></br></p>
 <p></br></p>
+<p></br></p>
+<p></br></p>
+<p></br></p>
+
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
+knitr::include_graphics("media/Avery_DeJaegher.jpg")
+```
+
+### Avery DeJaegher
+*Undergraduate.*\
+Avery is providing general lab support.
+
+<p></br></p>  
+<p></br></p>  
+<p></br></p>  
+<p></br></p>  
+<p></br></p>  
+<p></br></p>  
+<p></br></p>  
+
+
+```{r echo = FALSE, fig.align = "left", out.width = '30%', out.extra = 'style = "float:left; padding:10px"'}
+knitr::include_graphics("media/Romero_Frank.png")
+```
+
+### Frank Romero
+*Visiting scholar.*\
+Frank is visiting us from the State University of Campinas (Brazil) for an internship, thanks to the generous support of
+the [Emerging Leaders in the Americas Program](https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng){target="_blank"}.
 
 ```{r echo = FALSE, fig.align = "left", out.width = '100%'}
 knitr::include_graphics("media/Gantt.png")
 ```
 
 ## Lab alumni
-[Kelsey Wog](https://www.linkedin.com/in/kelsey-wog-ab438621b/){target="_blank"}, *MSc*\
-
 [Dr. Anuradha Jayathissa](https://www.linkedin.com/in/anuradha-jayathissa-70b6611b0/){target="_blank"},
 *PhD*\
 [Impacts of pathogen strain and barley cultivar on Fusarium head blight in barley and during malting](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13918){target="_blank"}\
 [Microbiome dynamics during malting of barley grains infested by *Fusarium graminearum* strains](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/ppa.13946){target="_blank"}\
 [The role of HYD5 in *Fusarium*-barley interactions](https://www.tandfonline.com/eprint/DKTMZYG6FAEPWNRBE8IA/full?target=10.1080/07060661.2025.2518414){target="_blank"}
 
+[Brian Harrison](https://www.linkedin.com/in/brian-h-95b54b1a3/){target="_blank"}, *MSc*\
+"Designing cell and protein-based DON biosensors for use in investigating DON-biotransforming microbes"
+
+[Kelsey Wog](https://www.linkedin.com/in/kelsey-wog-ab438621b/){target="_blank"}, *MSc*\
+"Beyond *cyp51*: A novel reduced spore dormancy pathway confers azole resistance in *Fusarium graminearum*"
+
 [Mehrdad Mohammadiani](https://www.linkedin.com/in/mehrdad-mohammadiani-733051232/){target="_blank"}, *MSc*\
-[Biocontrol of soil-borne plant diseases](https://www.sciencedirect.com/science/article/pii/B9780128229743001105?via%3Dihub){target="_blank"}
+[Biocontrol of soil-borne plant diseases](https://www.sciencedirect.com/science/article/pii/B9780128229743001105?via%3Dihub){target="_blank"}   
 "Response of soil fungal communities associated with different soil fractions to tillage practices and crop rotation"
 
 [Tarin Farhana](https://www.linkedin.com/in/tarin-farhana-59371268/){target="_blank"}, *MSc*\
@@ -232,15 +249,15 @@ knitr::include_graphics("media/Gantt.png")
 [Arshani Alukumbura](https://www.linkedin.com/in/arshani-alukumura-9b1a64152/){target="_blank"}, *MSc*\
 [Minimal impacts on the wheat microbiome when *Trichoderma gamsii* T6085 is applied as a biocontrol agent to manage fusarium head blight disease](https://www.frontiersin.org/articles/10.3389/fmicb.2022.972016/full){target="_blank"}
 
-[Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"},
-*Undergraduate*\
-
 [Anna Volakaki](https://www.linkedin.com/in/anna-maria-volakaki-3626b1295/){target="_blank"},
 *Graduate student*
 
 [Ambroise Loeb](https://www.linkedin.com/in/ambroiseloeb/){target="_blank"}, *Mitacs Globalink visiting scholar*
 
 [Guénaël Artus](https://www.linkedin.com/in/gu%C3%A9na%C3%ABl-artus-21155129a/){target="_blank"}, *Mitacs Globalink visiting scholar*
+
+[Kyle Remillard](https://www.linkedin.com/in/kyle-remillard-23628a312/){target="_blank"},
+*Undergraduate*\
 
 Atheena Quilal-lan, *Undergraduate honours project*
 
@@ -271,7 +288,7 @@ Urim Iyasere, *Co-op*
 
 Heidi Ahrenholtz, *Co-op*
 
-Damian Elizalde Amezcua, *Undergraduate honours project*
+[Damian Elizalde Amezcua](https://www.linkedin.com/in/carlos-damian-elizalde-amezcua-92254b3a0/){target="_blank"}, *Undergraduate honours project*
 
 [Meagan Smith](https://www.linkedin.com/in/meagan-smith-5a6683213/){target="_blank"},
 *Undergraduate summer research*
